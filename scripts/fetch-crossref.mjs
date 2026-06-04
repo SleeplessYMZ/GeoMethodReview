@@ -225,12 +225,17 @@ function escapeRegex(value) {
   return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
 
+function isCaseSensitiveAcronym(keyword) {
+  return /^[A-Z0-9][A-Z0-9&+.-]{1,5}$/.test(keyword) && keyword === keyword.toUpperCase();
+}
+
 function keywordMatches(text, keyword) {
-  const escaped = escapeRegex(keyword.toLowerCase());
+  const escaped = escapeRegex(keyword);
+  const flags = isCaseSensitiveAcronym(keyword) ? "" : "i";
   if (isEnglishKeyword(keyword) && /^[a-z0-9_.+-]+$/i.test(keyword)) {
-    return new RegExp(`(?<![a-z0-9_])${escaped}(?![a-z0-9_])`, "i").test(text);
+    return new RegExp(`(?<![a-z0-9_])${escaped}(?![a-z0-9_])`, flags).test(text);
   }
-  return new RegExp(escaped, "i").test(text);
+  return new RegExp(escaped, flags || "i").test(text);
 }
 
 function matchedGroups(text, keywordGroups) {
@@ -352,7 +357,7 @@ async function main() {
 
           const title = cleanText(item.title?.[0]);
           const abstract = cleanText(item.abstract);
-          const text = `${title} ${abstract}`.toLowerCase();
+          const text = `${title} ${abstract}`;
           const groups = matchedGroups(text, keywordGroups);
           if (!REQUIRED_GROUPS.every((groupId) => groups[groupId]?.length)) continue;
 

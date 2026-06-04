@@ -137,6 +137,12 @@ node scripts/fetch-crossref.mjs --from 2026-01 --to 2026-05
 node scripts/prepare-daily-reading.mjs --count 3
 ```
 
+生成月度方法文献简报：
+
+```bash
+node scripts/generate-reports.mjs --from 2025-01 --to 2026-05
+```
+
 ## 当前状态
 
 项目处于初始化阶段。首要任务是稳定期刊配置、方法关键词体系和 Crossref 筛选流程，然后逐步形成可持续更新的方法文献库。
