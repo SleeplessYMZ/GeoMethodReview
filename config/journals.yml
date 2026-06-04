@@ -1,0 +1,129 @@
+version: 1
+updated: "2026-06-04"
+description: "用于 GeoMethodReview 方法文献追踪的 25 本核心 GIScience 期刊。"
+
+journals:
+  - category: "地理学与 GIScience"
+    name: "Annals of the American Association of Geographers"
+    short_name: "AAG"
+    issn: "2469-4452"
+
+  - category: "地理学与 GIScience"
+    name: "Annals of GIS"
+    short_name: "AGIS"
+    issn: "1947-5691"
+
+  - category: "地理学与 GIScience"
+    name: "Applied Geography"
+    short_name: "APG"
+    issn: "0143-6228"
+
+  - category: "地图学与地理信息"
+    name: "Cartography and Geographic Information Science"
+    short_name: "CaGIS"
+    issn: "1545-0465"
+
+  - category: "计算地理与城市系统"
+    name: "Computers & Geosciences"
+    short_name: "C&G"
+    issn: "0098-3004"
+
+  - category: "计算地理与城市系统"
+    name: "Computers, Environment and Urban Systems"
+    short_name: "CEUS"
+    issn: "0198-9715"
+
+  - category: "城市分析与空间科学"
+    name: "Environment and Planning B: Urban Analytics and City Science"
+    short_name: "EPB"
+    issn: "2399-8091"
+
+  - category: "空间统计与地理分析"
+    name: "Geographical Analysis"
+    short_name: "GEAN"
+    issn: "1538-4632"
+
+  - category: "地理信息科学"
+    name: "Geoinformatica"
+    short_name: "GEIN"
+    issn: "1573-7624"
+
+  - category: "GeoAI 与遥感"
+    name: "GIScience & Remote Sensing"
+    short_name: "G&RS"
+    issn: "1548-1603"
+
+  - category: "地理信息科学"
+    name: "Geo-spatial Information Science"
+    short_name: "GSIS"
+    issn: "1993-5153"
+
+  - category: "数字地球与地理信息"
+    name: "International Journal of Digital Earth"
+    short_name: "IJDE"
+    issn: "1753-8955"
+
+  - category: "地理信息科学"
+    name: "International Journal of Geographical Information Science"
+    short_name: "IJGIS"
+    issn: "1365-8816"
+
+  - category: "地理信息科学"
+    name: "ISPRS International Journal of Geo-Information"
+    short_name: "IJGI"
+    issn: "2220-9964"
+
+  - category: "遥感与地球观测"
+    name: "International Journal of Applied Earth Observation and Geoinformation"
+    short_name: "JAG"
+    issn: "1569-8432"
+
+  - category: "地理系统与空间建模"
+    name: "Journal of Geographical Systems"
+    short_name: "JGS"
+    issn: "1435-5949"
+
+  - category: "可视化与空间分析"
+    name: "Journal of Geovisualization and Spatial Analysis"
+    short_name: "JGSA"
+    issn: "2509-8829"
+
+  - category: "地理信息科学"
+    name: "Journal of Spatial Information Science"
+    short_name: "JOSIS"
+    issn: "1948-660X"
+
+  - category: "空间科学"
+    name: "Journal of Spatial Science"
+    short_name: "JSS"
+    issn: "1836-5655"
+
+  - category: "摄影测量与遥感"
+    name: "ISPRS Journal of Photogrammetry and Remote Sensing"
+    short_name: "P&RS"
+    issn: "0924-2716"
+
+  - category: "摄影测量与遥感"
+    name: "Photogrammetric Engineering & Remote Sensing"
+    short_name: "PE&RS"
+    issn: "0099-1112"
+
+  - category: "摄影测量与遥感"
+    name: "PFG - Journal of Photogrammetry, Remote Sensing and Geoinformation Science"
+    short_name: "PFG"
+    issn: "2512-2789"
+
+  - category: "空间认知"
+    name: "Spatial Cognition & Computation"
+    short_name: "SCC"
+    issn: "1542-7633"
+
+  - category: "地理信息科学"
+    name: "Transactions in GIS"
+    short_name: "TGIS"
+    issn: "1467-9671"
+
+  - category: "空间算法"
+    name: "ACM Transactions on Spatial Algorithms and Systems"
+    short_name: "TSAS"
+    issn: "2374-0361"
