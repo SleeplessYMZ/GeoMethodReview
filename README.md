@@ -143,6 +143,10 @@ node scripts/prepare-daily-reading.mjs --count 3
 node scripts/generate-reports.mjs --from 2025-01 --to 2026-05
 ```
 
+## 项目资料
+
+- [健康数据源](docs/健康数据源.md)：整理中国优先、其他国家和世界尺度的居民健康、慢性病、睡眠、心理健康、时序和地理位置相关数据源。
+
 ## 当前状态
 
 项目处于初始化阶段。首要任务是稳定期刊配置、方法关键词体系和 Crossref 筛选流程，然后逐步形成可持续更新的方法文献库。
